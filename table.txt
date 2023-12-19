@@ -1,0 +1,14 @@
+Tabella per memorizzare tutti i dati riguardanti delle auto usate messe in vendita da un concessionario:
+
+Auto_id - INT - PRIMARY-KEY - AUTO-INCREMENT
+Marchio - VARCHAR(255) - NOTNULL
+Modello - VARCHAR(255) - NOTNULL
+Anno - YEAR - NOTNULL
+Descrizione - TEXT - NULL
+Carburante - VARCHAR(255) - NOTNULL
+Chilometri_percorsi - INT - NULL
+Colore - VARCHAR(255) - NULL
+Venditore - VARCHAR(255) - NOTNULL
+Acquirente - VARCHAR(255) - NOTNULL
+Prezzo - DECIMAL(10,2) - NOTNULL
+
